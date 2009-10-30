@@ -1,0 +1,5 @@
+body{overflow:hidden;}
+.sc-view.main-container{border-radius:5px;-webkit-border-radius:5px;-webkit-box-shadow:#000 1px 3px 40px;-moz-box-shadow:#000 1px 3px 40px;color:black;}
+.twitapp-glossy-refresh-icon{width:16px;height:16px;background:no-repeat url('/static/twitapp/en/3/resources/icons/refresh.png');}
+.twitapp-subdued-refresh-icon{width:16px;height:16px;background:no-repeat url('/static/twitapp/en/3/resources/icons/old-refresh.png');}
+.sc-button-view img{left:-1px!important;}
