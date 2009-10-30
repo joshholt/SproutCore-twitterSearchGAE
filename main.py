@@ -11,7 +11,7 @@ class TwitterSearchController(webapp.RequestHandler):
 		params = self.request.GET
 		apiquery = urllib.urlencode(params)
  
-		result = urlfetch.fetch(url=twitterSearchEndpoint + '?' + apiquery, method=urlfetch.GET)
+		result = urlfetch.fetch(url=twitterSearchEndpoint + '?' + apiquery, method=urlfetch.GET, headers={"User-Agent": "Twitapp/1.0 +http://sc-twitapp.appspot.com/"})
 		self.response.out.write(result.content)
  
 def main():

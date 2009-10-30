@@ -15,13 +15,13 @@ handlers:
   mime_type: text/html
 
 - url: /tasks
-  static_files: static/twitapp/en/1/index.html
-  upload: static/twitapp/en/1/index.html
+  static_files: static/twitapp/en/3/index.html
+  upload: static/twitapp/en/3/index.html
   mime_type: text/html
 
 - url: /
-  static_files: static/twitapp/en/1/index.html
-  upload: static/twitapp/en/1/index.html
+  static_files: static/twitapp/en/3/index.html
+  upload: static/twitapp/en/3/index.html
   mime_type: text/html
   
 - url: /static
